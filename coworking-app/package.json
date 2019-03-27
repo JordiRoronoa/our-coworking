@@ -1,0 +1,34 @@
+{
+  "name": "coworking-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "coworking-validation": "file:../coworking-validation",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-hash-router": "^0.2.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --runInBand",
+    "test:debug": "react-scripts --inspect-brk test --runInBand",
+    "test-coverage": "npm test -- --coverage",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@s-ui/lint": "^2.22.0",
+    "bcrypt": "^3.0.4",
+    "coworking-data": "file:../coworking-data",
+    "dotenv": "^6.2.0"
+  }
+}
